@@ -42,7 +42,7 @@ body{
 }
 
 /* Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar */
-nav{
+/* nav{
     max-width: 1200px;
     background-color: #002bff;
     margin:auto;
@@ -70,7 +70,7 @@ nav{
 
 .navlink li{
     list-style: none;
-}
+} */
 
 .burger{
     display: none;
@@ -87,10 +87,10 @@ nav{
 }
 /*MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
 @media screen and (max-width:1200px){
-    nav{
+    /* nav{
         padding-left: 10%;
         padding-right: 10%;    
-    }
+    } */
     .container{
         width: auto;
         padding-left: 10%;
@@ -113,15 +113,15 @@ nav{
         overflow-x: hidden;
     }
 
-    nav{
+    /* nav{
         background-color: #002bff;
         margin-bottom: -10vh;
         justify-content: space-between;
         padding-left: 10%;
         padding-right: 10%;
-    }
+    } */
 
-    .navlink{
+    /* .navlink{
         position: absolute;
         right: 0px;
         height:92vh;
@@ -146,7 +146,7 @@ nav{
 
     .burger{
         display: block;
-    }
+    } */
 }
 
 /* I don't really understand what this part is, i think it is something about animating the mobile navbar */
