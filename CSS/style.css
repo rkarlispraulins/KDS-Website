@@ -42,48 +42,13 @@ body{
 }
 
 /* Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar */
-/* nav{
-    max-width: 1200px;
-    background-color: #002bff;
-    margin:auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.uk-navbar-right{
     font-family: 'Poppins', sans-serif;
-    z-index: 0;
-}
-
-.navlink{
-    display: flex;
-    width: 40%;
-    justify-content: space-around;
+    color: #002bff;
+    font-weight: 700;
+    text-transform: uppercase;
     
-}
 
-.navlink a{
-    color: #3b3c3d  ;
-    text-decoration: none;
-    letter-spacing: 0px;
-    font-weight: 300;
-
-}
-
-.navlink li{
-    list-style: none;
-} */
-
-.burger{
-    display: none;
-    cursor:pointer
-}
-
-.burger div{
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    margin: 5px;
-    transition: all 0.8s ease;
-    border-radius: 1.5px;
 }
 /*MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
 @media screen and (max-width:1200px){
