@@ -115,7 +115,7 @@ body{
 }
 
 /* I don't really understand what this part is, i think it is something about animating the mobile navbar */
-.nav-active{
+/* .nav-active{
     transform: translateX(0%);
 }
 
@@ -139,11 +139,11 @@ body{
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px,-6px);
 
-}
+} */
 
 /*SHOWCASE SHOWCASE SHOWCASE SHOWCASE SHOWCASE SHOWCASE SHOWCASE SHOWCASE SHOWCASE SHOWCASE SHOWCASE SHOWCASE SHOWCASE*/
 
-#showcase{
+/* #showcase{
     background-image:url('../IMG//KDS-web-top-bg-big.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ body{
     max-width: 700px;
     margin-top: 200px;
 
-}
+} */
 
 
 

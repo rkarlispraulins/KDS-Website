@@ -1,0 +1,48 @@
+/* I don't really understand what this part is, i think it is something about animating the mobile navbar */
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: (100px);
+    }
+    to{
+        opacity: 1;
+        transform: 0px;
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px,-6px);
+
+}
+
+#showcase{
+    background-image:url('../IMG//KDS-web-top-bg-big.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -10vh;
+    z-index: -1;
+}
+#topcontainer{
+    max-width: 1200px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start
+}
+#textcontainhero{
+    max-width: 700px;
+    margin-top: 200px;
+
+}
